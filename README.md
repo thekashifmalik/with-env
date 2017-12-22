@@ -19,10 +19,11 @@ There are 2 ways of installing the `with-env` command.
 ```bash
     brew install with-env
 ```
-### Manual
+
+<!-- ### Manual
 
 ```bash
     git clone git://github.com/thekashifmalik/with-env
     bin/install
 ```
-
+ -->

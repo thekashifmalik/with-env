@@ -1,6 +1,0 @@
-#!/bin/bash
-set -eo pipefail
-bold=$(tput bold)
-normal=$(tput sgr0)
-ln -F -s $PWD/src/main.sh /usr/local/bin/with-env
-echo "[build] Symlinked ${bold}./src/main.sh${normal} to ${bold}/usr/local/bin/with-env${normal}."
