@@ -34,7 +34,7 @@ There are 2 ways of installing the `with-env` command.
 ### Manual
 
 ```bash
-    git clone git://github.com/thekashifmalik/with-env
+    git clone git@github.com:thekashifmalik/with-env.git
     cd with-env
     ln -s $PWD/with-env /usr/local/bin/with-env
 ```
