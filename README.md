@@ -1,6 +1,6 @@
 # with-env
 
-Use the `with-env`command to keep all your sensitive data in .env files from the start of your project!
+Use the `with-env` command to keep all your sensitive data in .env files from the start of your project!
 
 ## Usage
 
