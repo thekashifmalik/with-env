@@ -1,20 +1,31 @@
 # with-env
 
-Use the `with-env` command to keep all your sensitive data in .env files from the start of your project!
+Use the `with-env` command and keep all your configuration in `.env` files in the current directory from the start of your project!
 
 ## Usage
 
-Load .env files when running shell commands.
+Create a .env file with some config:
 
 ```bash
-    with-env bin/build
+    cat "CONFIG_VALUE=example" > .env
 ```
 
+Now when you run:
+
+```bash
+    with-env bin/run
+```
+
+it is equivalent to running:
+
+```bash
+    CONFIG_VALUE=example bin/run
+```
 ## Installation
 
 There are 2 ways of installing the `with-env` command.
 
-### Package Manager
+### MacOS
 
 ```bash
     brew install with-env
@@ -25,6 +36,6 @@ There are 2 ways of installing the `with-env` command.
 ```bash
     git clone git://github.com/thekashifmalik/with-env
     cd with-env
-    ln -s $PWD/with-env /usr/local-bin/with-env
+    ln -s $PWD/with-env /usr/local/bin/with-env
 ```
 
